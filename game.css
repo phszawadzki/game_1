@@ -1,0 +1,33 @@
+
+
+#info {
+    /* z-index: -1; */
+    padding: 1rem;
+    color: white;
+}
+
+#foe {
+    position: relative;
+    
+    /* background-color: palevioletred; */
+    
+    /* pic's dimensions */
+    /* width:21px; 
+    height:26px; */
+    
+    position: absolute;
+    left: 100px;
+    top: 150px;
+} 
+
+#foes_speech_bubble {
+
+}
+
+#foe_icon {
+    height: 50px;
+    width: auto;
+}
+
+
+

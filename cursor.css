@@ -1,0 +1,11 @@
+body{
+    background-color: #1D1E22;
+    color: white;
+  }
+
+  
+  #div1 {
+     /* cursor: none; */
+     height: 98vh;
+     border: 1px solid grey;
+  }

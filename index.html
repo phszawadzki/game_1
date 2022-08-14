@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="cursor.css">
+    <link rel="stylesheet" href="game.css">
+
+</head>
+<body>
+    <div id="info">time: 0s</div>
+    
+    <div  id="cursor" class="cursor rounded"></div>
+</body>
+
+
+<style>#div1 { height: 85vh; width:95vw; border: 1px solid #444; position: relative; }</style>
+
+
+
+<div id="div1" onmousemove="getCursorPosition(event)">
+    <div id="foe">
+        <img src="foe icon.png" alt="" id="foe_icon">   
+        <div id="foes_speech_bubble">hi, i wanna eat u </div>
+    </div>
+    <!-- please, don't
+    i'm gonna eat u
+    my gawd, please don't
+    ahhhh -->
+
+</div>
+<div>
+    The X cursor position is: 
+    <span id="cursor-position-x"></span>. 
+    <span> Testing info: </span><span id="test-info">...</span>
+</div>
+<div>The Y cursor position is: <span id="cursor-position-y"></span>. </div>
+
+<script>
+
+
+
+
+
+</script>
+
+
+
+
+
+<script  src="cursor.js"></script>
+<script  src="main.js"></script>
+</html>
